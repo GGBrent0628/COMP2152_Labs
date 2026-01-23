@@ -14,7 +14,7 @@ if playerChoice < 1 or playerChoice > 3:
 else:
     #Develop the game logic using if/elif/else
     computerChoice = random.randint(1,3)
-    print("You chose {choices[playerChoice - 1]}, Computer chose {choices[computerChoice - 1]}")
+    print(f"You chose {choices[playerChoice - 1]}, Computer chose {choices[computerChoice - 1]}")
     
     if playerChoice == computerChoice:
         print("It's a tie!")
